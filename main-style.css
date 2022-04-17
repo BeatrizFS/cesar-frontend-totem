@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100;
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#ilustracao{
+    height: 100%;
+}
+
+#logo{
+    position: absolute;
+    height: 10vh;
+}
+
+#span-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#span-container span{
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: #EC632B;
+}
