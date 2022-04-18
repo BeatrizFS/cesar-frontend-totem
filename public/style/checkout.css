@@ -72,27 +72,3 @@ section .face_image {
     gap: 20px;
 
 }
-
-button.green_button {
-
-    width: 200px;
-    height: 40px;
-    font-family:'Inter' ;
-    color: white;
-    outline: none;
-    border: none;
-    font-size: 20px;
-    cursor:pointer;
-    background: #99E33B;
-    border-radius: 20px;
-}
-button.gray_button{
-    background-color: #E9E9E9;
-    border-radius: 20px;
-    border: none;
-    cursor: pointer;
-    color: red;
-    font-size: 15px;
-    padding: 5px 20px;
-    font-weight: 800px;
-}
