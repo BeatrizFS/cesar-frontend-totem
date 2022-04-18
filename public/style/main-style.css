@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
 
 html{
     height: 100%;
@@ -39,4 +39,40 @@ body{
     font-size: 60px;
     text-align: center;
     color: #EC632B;
+}
+
+/* css dos buttoes  */
+
+button.green_button {
+
+    width: 200px;
+    height: 40px;
+    font-family:'Inter' ;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    cursor:pointer;
+    background-color: #99E33B;
+    border-radius: 20px;
+}
+
+button.green_button:hover{
+    
+    background-color: #91ff00;
+
+}
+
+button.gray_button{
+    background-color: #E9E9E9;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: red;
+    font-size: 15px;
+    padding: 5px 20px;
+    font-weight: 800px;
+}
+button.gray_button:hover{
+    background-color: rgb(172, 168, 168);
 }
