@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+header #logo img{
+    height: 10vh;
+    position: absolute;
+}
+
+main section {
+    display: flex;
+    justify-content: space-around;
+}
+
+#container-reserva{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 100vh;
+    background-color: #fff;
+}
+
+#container-reserva h2{
+    font-size: 48px;
+    font-family: 'Inter';
+    font-weight: 800;
+    color: #EC632B;
+    ;
+}
+
+#container-reserva>span{
+    margin-top: 30px;
+    font-size: 30px;
+    color: #EC632B;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    font-family: 'Inter';
+    color: #000;
+    font-weight: 800;
+}
+
+.field{
+    display: flex;
+    padding: 30px 10px;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+.field span{
+    text-align: center;
+}
+
+#btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    font-family: "Inter" !important;
+    font-weight: 800 !important;
+    font-size: 20px !important;
+    border: none !important;
+}
+
+.btn-confirma{
+    background-color: #99E33B !important;
+    width: 150px;
+    margin: 5px 0 10px 0;
+}
+
+.btn-confirma:hover{
+    background-color: #81c726 !important;
+}
+
+.btn-cancela{
+    background-color: #E9E9E9 !important;
+    color: #EC632B !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+}
+
+.btn-cancela:hover{
+    background-color: #dadada !important;
+}
+
+#map img{
+    height: 100vh;
+}
