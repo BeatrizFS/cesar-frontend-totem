@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="public/style/checkin.css">
     <title>checkin</title>
 </head>
+
 <body>
     <header>
         <div class="cesar_logo">
@@ -17,13 +19,13 @@
     </header>
     <main>
         <section>
-            <div class="face_image">
-                <img src="public/img/photo.png" alt="">
-            </div>
-
             <div class="checkin">
+
                 <div class="checkin_title">
                     Olá, Usuário!
+                </div>
+                <div class="face_image">
+                    <img src="public/img/photo.png" alt="">
                 </div>
                 <div class="checkin_description">
                     Sua reserva:
@@ -54,14 +56,17 @@
                     </button>
                     <button class="gray_button" onclick="cancela()">
                         Cancelar
-
                     </button>
 
                 </div>
+            </div>
+            <div id="map">
+                <img src="public/img/map.png">
             </div>
         </section>
 
     </main>
     <script type="text/javascript" src="public/js/script-checks.js"></script>
 </body>
+
 </html>
